@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+    <link rel="shortcut icon" type="image/png" href="img/hrslogo.png" />
+    <script
+      src="https://kit.fontawesome.com/3861c36f4f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Sub - Header  -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"
+          ><img src="img/harshstag.png" alt="harshstaglogo"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="project.html">PROJECT</a></li>
+            <li><a href="edu.html">EDUCATION</a></li>
+            <li><a href="skills.html">SKILLS</a></li>
+            <li><a href="more.html">MORE</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+      </nav>
+      <h1>Skills</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+
+    <!-- Education section -->
+    <section class="edu-edu">
+      <!-- <h1>EDUCATION</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+      <div class="row">
+        <div class="edu-col">
+          <div class="blog-right">
+          <h3>Programing</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+            incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Debitis, incidunt?
+          </p>
+          <div class="blog-right">
+            <h3>⠀⠀★⠀⠀★⠀⠀★⠀⠀★⠀⠀</h3>
+            <div>
+              <span>Java</span>
+              <span>99%</span>
+            </div>
+            <div>
+              <span>Java</span>
+              <span>99%</span>
+            </div>
+            <div>
+              <span>Java</span>
+              <span>99%</span>
+            </div>
+            <div>
+              <span>Java</span>
+              <span>99%</span>
+            </div>
+          </div>
+        </div>
+        <div class="edu-col">
+          <div class="blog-right">
+          <h3 >Video Editing</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+            incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Debitis, incidunt?
+          </p>
+          <div class="blog-right">
+            <h3>⠀⠀★⠀⠀★⠀⠀★⠀⠀★⠀⠀</h3>
+            <div>
+              <span>Java</span>
+              <span>99%</span>
+            </div>
+            <div>
+              <span>Java</span>
+              <span>99%</span>
+            </div>
+            <div>
+              <span>Java</span>
+              <span>99%</span>
+            </div>
+            <div>
+              <span>Java</span>
+              <span>99%</span>
+            </div>
+          </div>
+        </div>
+        <div class="edu-col">
+          <div class="blog-right">
+          <h3>Graphic Designing</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+            incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Debitis, incidunt?
+          </p>
+          <div class="blog-right">
+            <h3>⠀⠀★⠀⠀★⠀⠀★⠀⠀★⠀⠀</h3>
+            <div>
+              <span>Java</span>
+              <span>★★</span>
+            </div>
+            <div>
+              <span>Java</span>
+              <span>99%</span>
+            </div>
+            <div>
+              <span>Java</span>
+              <span>99%</span>
+            </div>
+            <div>
+              <span>Java</span>
+              <span>99%</span>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta in,
+        architecto quas minima consequuntur id, maiores modi repellat iure sint
+        unde eaque, <br />S voluptas illum ad ipsum culpa aliquam delectus?
+      </p>
+      <div class="icons">
+        <a
+          href="https://www.facebook.com/profile.php?id=100025678741372"
+          class="fa fa-facebook"
+        ></a>
+        <a href="https://twitter.com/harshStag" class="fa fa-twitter"></a>
+        <a
+          href="https://www.instagram.com/harshstag/"
+          class="fa fa-instagram"
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/harshstag/"
+          class="fa fa-linkedin"
+        ></a>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Harsh Singh</p>
+    </section>
+
+    <!-- Java Script for Toggle menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    <!-- *************************************** -->
+  </body>
+</html>
